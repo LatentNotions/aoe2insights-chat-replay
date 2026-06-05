@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         AoE2 Insights Chat Replay and Translator
 // @namespace    local.aoe2insights.chat
-// @version      0.8.0
+// @version      0.8.1
 // @description  Extract replay chat, normalize replay events, seek from transcript rows, translate locally, and route Pinyin to Google Translate when Chrome local translation cannot handle it.
 // @match        https://www.aoe2insights.com/*
+// @license      MIT
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
