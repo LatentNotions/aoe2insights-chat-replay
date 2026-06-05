@@ -51,6 +51,8 @@ On supported Chrome versions, standard translations use Chrome's built-in local 
 
 ### Option 1: Install from Greasy Fork
 
+https://greasyfork.org/en/scripts/581329-aoe2-insights-chat-replay-and-translator
+
 ### Option 2: Install manually from GitHub
 
 1. Install a userscript manager such as ScriptCat for Chrome or Violentmonkey for Firefox.
