@@ -70,7 +70,7 @@ After analysis finishes, an **AoE Chat** button appears in the lower-right corne
 1. Open an AoE2 Insights match.
 2. Click **Analyze** on a replay round.
 3. Wait for the replay map to appear.
-4. Open the injected **AoE Chat** panel.
+4. Open the injected **AoE Chat** panel (AoE Chat button appears in bottom-right)
 5. Click **Translate locally** to translate supported messages with Chrome's local translation model.
 6. Click any transcript row to jump the replay to that moment.
 
