@@ -6,18 +6,23 @@ Unofficial userscript that adds a browsable chat replay panel to analyzed AoE2 I
 
 It extracts the full in-game chat timeline from replay analysis data, cleans up common replay noise, and makes the conversation easier to inspect without waiting for the replay to play through in real time.
 
+![AoE2 Insights Chat Replay panel](./screenshots/chat-replay-panel.png)
+
 ## Features
 
 * Displays the complete in-game chat transcript as soon as replay analysis finishes
+* Uses Chrome's built-in local translation tools for supported languages (Screenshot item #1)
+* Optionally show original text, translation, or both (Screenshot item #2)
+* Adds a toggle for the site's native floating chat overlay (Screenshot item #3)
+* Optionally hides messages that only contains taunts (Screenshot item #4)
+* Filters messages by team and all-chat visibility (Screenshot item #5)
 * Click any chat row to jump the replay to that moment
-* Filters messages by team and all-chat visibility
 * Shows or hides system messages
-* Adds a toggle for the site's native floating chat overlay
 * Normalizes age-up messages into English
 * Displays resignation and disconnect events
 * Decodes AoE II taunts from `1` through `105`
-* Optionally hides messages that only contains taunts
-* Uses Chrome's built-in local translation tools for supported languages
+
+
 * Flags translations that may be unreliable
 * Provides an optional Google Translate fallback for individual messages
 * Detects romanized Chinese / Pinyin and routes those messages to Google Translate when Chrome's local translator cannot handle them cleanly
